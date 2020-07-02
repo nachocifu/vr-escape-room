@@ -73,6 +73,7 @@
                     <e p="CameraPointer.cs" t="Include" />
                     <e p="CardboardStartup.cs" t="Include" />
                     <e p="ObjectController.cs" t="Include" />
+                    <e p="TargetMovementController.cs" t="Include" />
                   </e>
                 </e>
               </e>
