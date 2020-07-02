@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PlattarExporter" t="Include">
+          <e p="Plattar" t="Include">
+            <e p="Alignment" t="Include">
+              <e p="AlignmentScript.cs" t="Include" />
+              <e p="PlattarSelectiveCompile.asmdef" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="Exporter.cs" t="Include" />
+              <e p="Importer.cs" t="Include" />
+              <e p="PlattarCompile.asmdef" t="Include" />
+              <e p="PlattarExporterOptions.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UnityGLTF" t="Include">
+            <e p="Compiler.asmdef" t="Include" />
+            <e p="Plugins" t="Include">
+              <e p="Newtonsoft.Json.xml" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AssetSerializer.cs" t="Include" />
+              <e p="Async" t="Include">
+                <e p="AsyncAction.cs" t="Include" />
+              </e>
+              <e p="Cache" t="Include">
+                <e p="AssetCache.cs" t="Include" />
+                <e p="MaterialCacheData.cs" t="Include" />
+                <e p="MeshCacheData.cs" t="Include" />
+              </e>
+              <e p="Dependencies" t="Include">
+                <e p="SimpleJSON.cs" t="Include" />
+              </e>
+              <e p="Exceptions.cs" t="Include" />
+              <e p="Extensions" t="Include">
+                <e p="SchemaExtensions.cs" t="Include" />
+              </e>
+              <e p="GLTFComponent.cs" t="Include" />
+              <e p="GLTFEditorExporter.cs" t="Include" />
+              <e p="GLTFEditorImporter.cs" t="Include" />
+              <e p="GLTFSceneExporter.cs" t="Include" />
+              <e p="GLTFSceneImporter.cs" t="Include" />
+              <e p="GLTFTextureUtils.cs" t="Include" />
+              <e p="GLTFUtils.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="GLTFConstant.cginc" t="Include" />
+              <e p="GLTFConstant.shader" t="Include" />
+              <e p="GLTFMobileCommon.cginc" t="Include" />
+              <e p="GLTFStandard.shader" t="Include" />
+              <e p="GLTFStandardInput.cginc" t="Include" />
+              <e p="GLTFVertexLitCommon.cginc" t="Include" />
+              <e p="TextureUtils" t="Include">
+                <e p="GLTFBumpToNormal.shader" t="Include" />
+                <e p="GLTFColorSpace.cginc" t="Include" />
+                <e p="GLTFFlipTexture.shader" t="Include" />
+                <e p="GLTFLinear2sRGB.shader" t="Include" />
+                <e p="GLTFPackOccMetalRough.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="Google Cardboard XR Plugin for Unity" t="Include">
+            <e p="1.1.0" t="Include">
+              <e p="Hello Cardboard" t="Include">
+                <e p="Assets" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="CameraPointer.cs" t="Include" />
+                    <e p="CardboardStartup.cs" t="Include" />
+                    <e p="ObjectController.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Compiler.csproj" t="IncludeRecursive" />
+      <e p="Final.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PlattarCompile.csproj" t="IncludeRecursive" />
+      <e p="PlattarSelectiveCompile.csproj" t="IncludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Final.1738631604.00" t="ExcludeRecursive" />
+  </component>
+</project>
