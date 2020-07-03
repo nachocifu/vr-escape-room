@@ -13,17 +13,7 @@ public class TargetMovementController : MonoBehaviour
     /// The material to use when this object is active (gazed at).
     /// </summary>
     public Material GazedAtMaterial;
-
-    // The objects are about 1 meter in radius, so the min/max target distance are
-    // set so that the objects are always within the room (which is about 5 meters
-    // across).
-    private const float k_MinObjectDistance = 2.5f;
-    private const float k_MaxObjectDistance = 3.5f;
-    private const float k_MinObjectHeight = 0.5f;
-    private const float k_MaxObjectHeight = 3.5f;
-
     private Renderer m_MyRenderer;
-    private Vector3 m_StartingPosition;
 
     private Transform player;
 
@@ -32,7 +22,6 @@ public class TargetMovementController : MonoBehaviour
     /// </summary>
     public void Start()
     {
-        m_StartingPosition = transform.localPosition;
         m_MyRenderer = GetComponent<Renderer>();
         SetMaterial(false);
         player =  GameObject.Find("Player").transform;
