@@ -8,6 +8,7 @@
         <e p="BoxLidClosedController.cs" t="Include" />
         <e p="BoxLidOpenController.cs" t="Include" />
         <e p="CasseteController.cs" t="Include" />
+        <e p="IntroController.cs" t="Include" />
         <e p="KeyController.cs" t="Include" />
         <e p="ObjectInteractiveMoveController.cs" t="Include" />
         <e p="PadCombinationDigitController.cs" t="Include" />
