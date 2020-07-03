@@ -4,11 +4,14 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BaultDoorController.cs" t="Include" />
         <e p="BoxLidClosedController.cs" t="Include" />
         <e p="BoxLidOpenController.cs" t="Include" />
         <e p="CasseteController.cs" t="Include" />
         <e p="KeyController.cs" t="Include" />
         <e p="ObjectInteractiveMoveController.cs" t="Include" />
+        <e p="PadCombinationDigitController.cs" t="Include" />
+        <e p="PadController.cs" t="Include" />
         <e p="PlattarExporter" t="Include">
           <e p="Plattar" t="Include">
             <e p="Alignment" t="Include">
