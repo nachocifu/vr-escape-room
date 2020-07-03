@@ -1,28 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class KeyController : MonoBehaviour
+public class CasseteController : MonoBehaviour
 {
     public Material InactiveMaterial;
     public Material GazedAtMaterial;
     private Renderer m_MyRenderer;
 
-    public GameObject lidOpen;
-    public GameObject lidClose;
+    public GameObject radioOn;
+    public GameObject radioOff;
     
     public void Start()
     {
         m_MyRenderer = GetComponent<Renderer>();
         SetMaterial(false);
-        lidOpen.SetActive(false);
-        lidClose.SetActive(true);
+        radioOn.SetActive(false);
+        radioOff.SetActive(true);
     }
     
     public void TeleportObject()
     {
-        lidOpen.SetActive(true);
-        lidClose.SetActive(false);
+        radioOn.SetActive(true);
+        radioOff.SetActive(false);
         gameObject.SetActive(false);
     }
     
