@@ -78,6 +78,7 @@
               <e p="Hello Cardboard" t="Include">
                 <e p="Assets" t="Include">
                   <e p="Scripts" t="Include">
+                    <e p="BaultTargetMovementController.cs" t="Include" />
                     <e p="CameraPointer.cs" t="Include" />
                     <e p="CardboardStartup.cs" t="Include" />
                     <e p="ObjectController.cs" t="Include" />

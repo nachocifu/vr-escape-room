@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetMovementController : MonoBehaviour
+public class BaultTargetMovementController : MonoBehaviour
 {
     /// <summary>
     /// The material to use when this object is inactive (not being gazed at).
@@ -33,7 +33,7 @@ public class TargetMovementController : MonoBehaviour
     public void TeleportUser()
     {
         // teleport user to this xy location
-        player.position = new Vector3(transform.position.x, 1.668f, transform.position.z);
+        player.position = new Vector3(1.736f, 0.458f, -3.041f);
     }
 
     /// <summary>

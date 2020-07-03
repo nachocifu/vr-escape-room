@@ -10,6 +10,7 @@ public class PadController : MonoBehaviour
     public GameObject combination3;
 
     public GameObject baultDoor;
+    public GameObject baultFloor;
     
     
 
@@ -23,6 +24,7 @@ public class PadController : MonoBehaviour
         if (num1.isOk && num2.isOk && num3.isOk)
         {
             baultDoor.SetActive(false); // open bault
+            baultFloor.SetActive(true); //enable standing on front of bault
             gameObject.SetActive(false); // close numpad
         }
         
